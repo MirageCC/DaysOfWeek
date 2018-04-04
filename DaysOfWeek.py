@@ -70,7 +70,7 @@ def calculate(year,month,day):
                     else:
                         days +=28
         else:
-            if days%2==0:
+            if i%2==0:
                 days+=31
             else:
                 days+=30
