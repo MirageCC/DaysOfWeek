@@ -39,10 +39,6 @@ def calculate(year,month,day):
     if month in [2,4,6,9,11] and day>30:
         return "日期不合法"
     
-    
-    min_year = year-2018
-    min_month= month-4
-    min_day  = day -3
 
     subdays = 0
     if year>2018:
